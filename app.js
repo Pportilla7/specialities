@@ -50,8 +50,6 @@ function imprimirUser(res, especialidad){
   
     arrInfoUser.push(`ID: ${id} Nombre: ${name} Edad: ${age}   `)
   });
-  
-console.log(arrInfoUser)
 
   res.send(
     `<h1>${Especialidad}</h1>
